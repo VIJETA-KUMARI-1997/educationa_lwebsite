@@ -26,13 +26,19 @@ body {
   padding: 9.6rem;
 }
 
-.grid-item {
-  font-size: 1.8rem;
-  line-height: 1.8;
+.grid-item
+ {
+  font-family:rubic;
+  font-size: 2rem;
+  line-height: 1.0;
   margin-bottom: 1.6rem;
+  height:calc(100vh-10px);
+
+  
 }
 
-.btn:hover {
+.btn:hover 
+{
   transform: scale(1.1);
 }
 
@@ -74,7 +80,36 @@ body {
   color: #fff;
   margin-left: 15rem;
 }
+.button {
+  height: 4rem;
+  width: 100%;
+  display: inline-block;
+  text-decoration:none;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 200;
+  padding: 1.6rem 3.2rem;
+  border-radius: 8px;
+  border:none
+  cursor:pointer;
+  font-family: inherit;
+  background-color: rgba(5, 3, 3, 0.966);
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+  color: #fff;
+  margin-right: 15rem;
+}
 
-.footer {
+.price{
+text-align: center;
+}
+.section-book
+{
+background-color:#fff;
+}
+
+footer 
+{
   color: #fff;
 }
