@@ -1,0 +1,42 @@
+.footer 
+{
+  background-color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  line-height: 3rem;
+  text-transform: capitalize;
+ 
+
+}
+.footer-link
+{
+  color:#fff;
+  display: inline-block;
+  text-decoration: none;
+  /* color: rgba(245, 238, 238, 0.849); */
+  font-weight: 500;
+  font-size: 1.2rem;
+ 
+ 
+}
+.nav-col1
+{
+  margin-top: 5rem;
+}
+.footer-heading
+{
+  /* display: flex;
+  width: 100%;
+  align-items: flex-start; */
+  color:#fff;
+  display: inline-block;
+  text-decoration: none;
+  /* color: rgba(245, 238, 238, 0.849); */
+  font-weight: 500;
+  font-size: 1.5rem;
+
+ 
+}
+
+.nav-col1{
+  display: flex;
+}
